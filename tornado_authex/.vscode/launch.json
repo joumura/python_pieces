@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: server formauth",
+            "type": "python",
+            "request": "launch",
+            "program": "src/tornado_authex/server.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: server basicauth",
+            "type": "python",
+            "request": "launch",
+            "program": "src/tornado_authex/server_basicauth.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: server bearerauth",
+            "type": "python",
+            "request": "launch",
+            "program": "src/tornado_authex/server_bearerauth.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
