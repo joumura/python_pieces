@@ -1,6 +1,6 @@
 from requests import Session
 import json
-from crypt import aes
+from tornado_authex.crypt import aes
 
 # ログインAPI
 sess = Session()

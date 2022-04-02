@@ -1,6 +1,6 @@
 import functools
 import base64
-from arth import adldap
+from tornado_authex.arth import adldap
 
 
 def basic_auth(auth):

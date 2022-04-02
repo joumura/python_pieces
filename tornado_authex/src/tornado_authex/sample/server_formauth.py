@@ -5,7 +5,7 @@ import signal
 from tornado.options import options as toropt
 from pathlib import Path
 import json
-from arth import adldap
+from tornado_authex.arth import adldap
 from logging import getLogger
 
 logger = getLogger(__name__)

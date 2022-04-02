@@ -6,7 +6,7 @@ from logging import getLogger
 import os
 CRYPT = True
 if CRYPT:
-    from crypt import aes
+    from tornado_authex.crypt import aes
 
 logger = getLogger(__name__)
 

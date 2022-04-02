@@ -20,7 +20,7 @@ from tornado.options import options as toropt
 import signal
 from pathlib import Path
 from logging import getLogger
-from bearer_auth import LoginHandler, LogoutHandler
+from tornado_authex.bearer_auth import LoginHandler, LogoutHandler
 from handlers_bearerauth import JsonHandler
 
 

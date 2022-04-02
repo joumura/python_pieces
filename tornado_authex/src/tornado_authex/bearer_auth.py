@@ -3,7 +3,7 @@ import secrets
 import time
 import tornado.web
 import json
-from arth import adldap
+from tornado_authex.arth import adldap
 
 
 def bearer_auth(auth):
